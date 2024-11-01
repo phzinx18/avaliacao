@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: "Poppins", sans-serif;
+} */
+
+/* parte aonde fica o forms  */
+.amarelo {
+    background-color: #FFC222;
+    text-align: center;
+    color: white;
+    height: 500px;
+    padding-top: 110px;
+
+}
+
+.amarelo h2 {
+    font-size: 50px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+.amarelo p {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+form {
+    background-color: white;
+    border-radius: 5px;
+    width: 24%;
+    position: absolute;
+    right: 41.5%;
+    transform: translate(50px);
+    padding: 5px;
+    margin-top: 20px;
+}
+
+input {
+    border: 0;
+    font-size: 17px;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    transition: 0.5s ease;
+}
+
+button:hover{
+    color: #FFC222;
+    cursor: pointer;
+}
+
+/* fim desta parte  */
+
+/* footer  */
+.footer {
+    line-height: 2;
+}
+
+.title {
+    margin-top: 45px;
+    margin-left: 70px;
+}
+
+.title h2 {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.title p {
+    color: #9ea3b1;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+img {
+    width: 40px;
+    height: auto;
+    background-color: #e6c774;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 60px;
+    margin-right: 5px;
+    transition: 0.5s ease;
+}
+
+img:hover{
+    box-shadow: 0px 0px 20px 1px #FFC222;
+    cursor: pointer;
+}
+
+ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #848792;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    gap: 370px;
+    height: 55vh;
+}
+
+.lista {
+    display: flex;
+    margin-top: 70px;
+    line-height: 2.5;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.primeira {
+    margin-right: 200px;
+}
+
+.segunda {
+    margin-right: 180px;
+}
+
+.terceira{
+    margin-right: 10px;
+}
+
+#topo {
+    color: white;
+}
